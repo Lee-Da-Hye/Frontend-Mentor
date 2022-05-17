@@ -1,0 +1,95 @@
+body{
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    background-size: contain;
+    font-size: 16px;   
+    display: flex;
+    align-items: center;
+    vertical-align: center; 
+    height: 100vh;
+}
+.wrap{
+    width: 450px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.wrap img{
+    border-radius: 20px 20px 0 0;
+}
+.desc{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.price-wrap{
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 20px;
+    width: 340px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.price-wrap img{
+    position:absolute;
+    left: 20px;
+    top: 15px;
+}
+.price{
+    padding-left: 80px;
+    padding-top: 1px;
+}
+.price p{
+    line-height: 12px;
+}
+.price p:first-child{
+    font-weight: bold;
+}
+.price a{
+    float: right;
+    padding-right: 20px;
+    position: relative;
+    top: -50px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.price a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn p:first-child a{
+    background-color:hsl(245, 75%, 52%);
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    box-sizing: border-box;
+    line-height: 50px;
+    box-shadow: 0px 8px 5px rgb(175, 181, 239);
+    transition: 0.5s;
+}
+.btn p:last-child a{
+    color: rgb(124, 123, 123);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn p:first-child a:hover{
+    opacity: 0.5;
+}
+.btn p:last-child a:hover{
+    color: #000;
+    
+}
